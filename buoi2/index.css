@@ -1,0 +1,12 @@
+p {
+    background-color: gray;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;}
+.abc {
+    background-color: aquamarine;
+}
+.xyz {
+    background-color: lightpink;
+}
