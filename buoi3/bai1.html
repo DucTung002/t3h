@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <i class="fa-solid fa-circle" style="font-size: 24px; margin-right: 8px; opacity: 50%;"></i>Logo
+        </div>  
+        <div class="header-pages">
+            <div class="page">Home</div>
+            <div class="page border-home">About us</div>
+            <div class="page">Contact</div>
+            <button class="button">My Cart (0)</button>
+        </div>
+    </div>
+    <div class="side-bar">
+        <p style="font-weight: bold; font-size: 15px; margin-left: 10px;">Categories</p>
+        <input type="checkbox" name="devices" id="devices">
+        <label for="devices"> Devices</label><br>
+        <input type="checkbox" id="funitures" name="funitures">
+        <label for="funitures"> Funitures</label><br>
+        <input type="checkbox" id="cloths" name="cloths">
+        <label for="cloths"> Cloths</label><br>
+        <input type="checkbox" name="food" id="food">
+        <label for="food"> Foods & Drink</label><br>
+        <input type="checkbox" id="funitures" name="funitures">
+        <label for="funitures"> Materials</label><br>
+        <input type="checkbox" id="cloths" name="cloths">
+        <label for="cloths"> Computers</label><br>
+        <button class="show">Show more ...</button>
+        <div class="search">
+            <div class="input">
+                <input class="input" type="text" placeholder="Enter keyword to search">
+            </div>
+            <div class="select">
+                <select name="sort" id="sort">
+                    <option value="sort">Sort by</option>
+                </select>
+                <select name="order" id="order">
+                    <option value="order">Order by</option>
+                </select>
+            </div>
+            <div class="content">
+                <div class="image">IMAGE</div>
+                <div class="image">IMAGE</div>
+                <div class="image">IMAGE</div>
+                <div class="image">IMAGE</div>
+                <div class="image">IMAGE</div>
+                <div class="image">IMAGE</div>
+                <div class="image">IMAGE</div>
+                <div class="image">IMAGE</div>
+                <button class="pagination">1</button>
+                <button class="pagination2">2</button>
+                <button class="pagination3">3</button>
+                <button class="pagination4">...</button>
+                <button class="pagination5">50</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="shop">My Shop</div>
+            <div class="information">
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i><b> 22C Somewhere, Ha Noi</b>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i><b> 09876543210</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

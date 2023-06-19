@@ -1,0 +1,144 @@
+.header {
+    border: 1px solid burlywood;
+	padding: 8px;
+	display: flex;
+	justify-content: space-between;
+	background: antiquewhite;
+	align-items: center;
+}
+.header-pages {
+    display: flex;
+    margin-right: 16px;
+}
+.page {
+    border: 1px solid black;
+    padding: 4px 12px;
+    background: bisque;
+    border: none;
+}
+.border-home {
+    border-left: none;
+    border-right: none;
+}
+.header-logo {
+    padding: 4px 12px;
+    border: 1px solid;
+    border: none;
+}
+.button {
+    border-radius: 5px;
+    background-color: aqua;  
+}
+.side-bar {
+    width: 150px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.show {
+    background-color: aqua;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+.search {
+    position: absolute;
+    border: 1px solid;
+    width: 1283px;
+    height: 35px;
+    top: 0px;
+    left: 188px;
+    display: flex;
+	justify-content: space-between;
+}
+.input {
+    border-radius: 4px;
+    padding: 4px;
+    width: 270px;
+}
+select {
+    padding: 4px;
+    border-radius: 4px;
+    width: 100px;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+.content {
+    border: 1px solid;
+    border: none;
+    width: 1283px;
+    height: 485px;
+    position: absolute;
+    top: 54px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image {
+    border: 1px solid;
+    width: 253px;
+    height: 150px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.pagination .pagination2 .pagination3 .pagination4 .pagination5 {
+    border-radius: 3px;
+}
+.pagination {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 25px;
+}
+.pagination2 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 25px;
+}
+.pagination3 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 25px;
+}
+.pagination4 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 25px;
+}
+.pagination5 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 30px;
+}
+.footer {
+    border: 1px solid;
+    width: 1520px;
+    height: 60px;
+    margin-left: -20px;
+    position: absolute;
+    bottom: -390px;
+    background-color: aqua;
+}
+.shop {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.information {
+    display: flex;
+    margin-top: 8px;
+}
+.address {
+    margin-left: 40px;
+}
+.phone {
+    margin-left: 70px;
+}
