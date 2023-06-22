@@ -1,0 +1,33 @@
+.header {
+    border: 1px solid burlywood;
+	padding: 8px;
+	display: flex;
+	justify-content: space-between;
+	background: antiquewhite;
+	align-items: center;
+}
+.header-pages {
+    display: flex;
+    margin-right: 16px;
+}
+.page {
+    border: 1px solid black;
+    padding: 4px 12px;
+    background: bisque;
+    border: none;
+}
+.heart {
+    border-left: none;
+    border-right: none;
+}
+.header-logo {
+    padding: 4px 12px;
+    border: 1px solid;
+    border: none;
+}
+b {
+    font-size: 20px;
+}
+.input {
+    width: 75%;
+}
