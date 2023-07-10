@@ -175,17 +175,17 @@
 // let correct = Math.floor(Math.random() * 20) + 1;
 // let attempts = 0;
 // while (attempts < 5) {
-//   let answer = parseInt(prompt("Hãy đoán một số từ 1 đến 20:"));
-//   if (answer === correct) {
-//     console.log("Đoán đúng!");
-//     break;
-//   } else {
-//     console.log("Đoán sai!");
-//     attempts++;
-//   }
+  // let answer = parseInt(prompt("Hãy đoán một số từ 1 đến 20:"));
+  // if (answer === correct) {
+    // console.log("Đoán đúng!");
+    // break;
+  // } else {
+    // console.log("Đoán sai!");
+    // attempts++;
+  // }
 // }
 // if (attempts === 5) {
-//   console.log("Bạn đã thua cuộc!");
+  // console.log("Bạn đã thua cuộc!");
 // }
 
 //13. Nhập vào số n (2 <= n <= 10). Hãy in ra bảng cửu chương của số n
