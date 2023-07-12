@@ -596,22 +596,14 @@ let users = [
 // console.log(countMarriedUsers());
 
 // Đếm số lượng user theo từng ngành nghề tương ứng.
-// function work (n) {
-	// let count = 0;
-	// for (let staff of users) {
-		// if (staff.job == n) {
-			// count++;
-		// } else {
-			// continue;
-		// }
-	// }
-	// console.log(n, ':', count);
+// C1:
+// const result = {};
+// for(let user of users) {
+// 	const flag = result.hasOwnProperty(user.job)
+// 	if(flag) {
+// 		result[user.job] = result[user.job] + 1;
+// 	} else {
+// 		result[user.job] = 1;
+// 	}
 // }
-
-// work('Dentist');
-// work('Developer');
-// work('Doctor');
-// work('Farmer');
-// work('Project Manager');
-// work('Teacher');
-// work('Worker');
+// console.log(result);

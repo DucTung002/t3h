@@ -30,6 +30,10 @@
 // const sum = (...listNumber) => {
     // console.log(listNumber);
     // let sumNumbers = 0;
+    // for (let number of listNumber) {
+    // sumNumbers = sumNumbers + number;
+    // }
+    // console.log(sumNumbers);
 // }
 // sum(1, 2, 5, 8, 3);
 // sum(1, -4);
@@ -45,16 +49,17 @@
 // logger (1, 2, 3, 4, 5);
 
 // Spread operator
+// const listNumber0 = [7, 8, 9];
 // const listNumber1 = [1, 2, 3];
-// const listNumber2 = [...listNumber1, 4, 5, 6];
+// const listNumber2 = [...listNumber1, 4, 5, 6, ...listNumber0];
 // listNumber1[0] = 10;
 // // console.log('listNumber1: ', listNumber1);
 // console.log(listNumber2);
 // console.log(...listNumber2);
-const student1 = {
-    age: 15,
-};
-const student2 = {...student1, name: 'Trần Thị B', age: 16};
-student1.name = 'Nguyễn Văn A';
-console.log(student1);
-console.log(student2);
+// const student1 = {
+//     age: 15,
+// };
+// const student2 = {...student1, name: 'Trần Thị B', age: 16};
+// student1.name = 'Nguyễn Văn A';
+// console.log(student1);
+// console.log(student2);
