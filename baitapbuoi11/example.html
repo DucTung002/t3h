@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 2. Tạo 2 thẻ input:number#number-a, input:number#number-b và 2 nút “Cộng”, “Trừ”. Hãy tạo listener khi: -->
+    <!-- Click vào nút “Cộng” → Cộng 2 số nhập vào từ 2 ô input.  -->
+    <!-- Click nút “Trừ” → Trừ 2 số nhập vào từ 2 ô input. -->
+    <input type="number" id="number-a" placeholder="Enter number A">
+    <input type="number" id="number-b" placeholder="Enter number B">
+    <button id="addBtn">Cộng</button>
+    <button id="subtractBtn">Trừ</button>
+    <script>
+        const numberAInput = document.getElementById("number-a");
+        const numberBInput = document.getElementById("number-b");
+        const addBtn = document.getElementById("addBtn");
+        const subtractBtn = document.getElementById("subtractBtn");
+        // Hàm cộng hai số
+        function addNumbers() {
+            const numberA = parseFloat(numberAInput.value);
+            const numberB = parseFloat(numberBInput.value);
+            const result = numberA + numberB;
+            alert("Kết quả cộng: " + result);
+        }
+        // Hàm trừ hai số
+        function subtractNumbers() {
+            const numberA = parseFloat(numberAInput.value);
+            const numberB = parseFloat(numberBInput.value);
+            const result = numberA - numberB;
+            alert("Kết quả trừ: " + result);
+        }
+        // Tạo listener cho nút "Cộng"
+        addBtn.addEventListener("click", addNumbers);
+        // Tạo listener cho nút "Trừ"
+        subtractBtn.addEventListener("click", subtractNumbers);
+    </script>
+</body>
+</html>

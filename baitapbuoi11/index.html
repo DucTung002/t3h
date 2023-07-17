@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #image {
+          width: 100px;
+          height: 100px;
+        }
+      </style>
+</head>
+<body>
+    <!-- 3. Tạo ra 1 ảnh có kích thước 100x100 và 2 nút “Tăng kích thước”, “Giảm kích thước”.  -->
+    <!-- Khi click vào nút “Tăng kích thước” → Tăng kích thước của ảnh mỗi chiều lên 10px. -->
+    <!-- Khi click vào nút “Giảm kích thước” → Giảm kích thước của ảnh mỗi chiều đi 10px. -->
+    <img src="../buoi1/Goku.jpg" id="image" alt="Your Image">
+    <button id="increaseBtn">Tăng kích thước</button>
+    <button id="decreaseBtn">Giảm kích thước</button>
+
+    <script>
+        const image = document.getElementById("image");
+        const increaseBtn = document.getElementById("increaseBtn");
+        const decreaseBtn = document.getElementById("decreaseBtn");
+        // Hàm tăng kích thước ảnh
+        function increaseSize() {
+            const currentWidth = image.width;
+            const currentHeight = image.height;
+            const newWidth = currentWidth + 10;
+            const newHeight = currentHeight + 10;
+            image.style.width = newWidth + "px";
+            image.style.height = newHeight + "px";
+        }
+        // Hàm giảm kích thước ảnh
+        function decreaseSize() {
+            const currentWidth = image.width;
+            const currentHeight = image.height;
+            const newWidth = currentWidth - 10;
+            const newHeight = currentHeight - 10;
+            image.style.width = newWidth + "px";
+            image.style.height = newHeight + "px";
+        }
+        // Tạo listener cho nút "Tăng kích thước"
+        increaseBtn.addEventListener("click", increaseSize);
+        // Tạo listener cho nút "Giảm kích thước"
+        decreaseBtn.addEventListener("click", decreaseSize);
+    </script>
+</body>
+</html>
