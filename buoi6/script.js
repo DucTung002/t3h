@@ -53,3 +53,8 @@
 // x || y || z == 10 → true
 // (x && y) || z != 10 → false
 // !(x && z == 10) || y → false
+
+const a = 2;
+const b = '2';
+const c = a + b;
+console.log(c);
